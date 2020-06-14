@@ -12,8 +12,6 @@ namespace VehiclePerms
         public ushort id;
         public bool RemoveFromTheGroupAfterLeave;
 
-        public List<ushort> Ids;
-
         public Vehicle()
         {
         }
