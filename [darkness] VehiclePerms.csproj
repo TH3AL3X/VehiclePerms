@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Vehicle.cs" />
-    <Compile Include="VehicleCrash.cs" />
+    <Compile Include="VehicleMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VehicleConfig.cs" />
   </ItemGroup>
@@ -45,13 +45,13 @@
       <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.API">
-      <HintPath>..\..\..\..\Rocket.API.dll</HintPath>
+      <HintPath>..\..\..\..\..\Rocket.API.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.Core">
-      <HintPath>..\..\..\..\Rocket.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\Rocket.Core.dll</HintPath>
     </Reference>
     <Reference Include="Rocket.Unturned">
-      <HintPath>..\..\..\..\Rocket.Unturned.dll</HintPath>
+      <HintPath>..\..\..\..\..\Rocket.Unturned.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\UnityEngine.dll</HintPath>
